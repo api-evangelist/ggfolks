@@ -1,7 +1,28 @@
 aid: ggfolks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ggfolks.png
 name: GGFolks
-description: GGFolks is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  GGFolks (Good Game Folks) is a small, experimental independent game-development
+  group that publishes its work as open source on GitHub under the ggfolks
+  organization, with the tagline "We make good feels." Its repositories are early-stage
+  games and supporting tooling rather than a commercial API product: platform is a
+  TypeScript social-multiplayer web game framework (the `tfw` package, MIT-licensed),
+  moncher is a monster-ranching social game, spaced is a web-based space editor,
+  chatapp is a Dart messaging experiment, and ggdobj/esl provide shared C#/Unity
+  client-server and simulation code. GGFolks does not publish a public developer
+  portal, hosted API, OpenAPI definition, or released client SDK, so it is tracked in
+  the API Evangelist network as a company profile with no API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/ggfolks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,34 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: >-
+  Enrichment 2026-07-19: GGFolks resolves to the "Good Game Folks" indie game-dev
+  GitHub organization (github.com/ggfolks). No public API, OpenAPI, docs host,
+  developer portal, or released SDK was found; ggfolks.com and ggfolks.io do not
+  resolve, and the org is not listed on a16z's public portfolio page. Nothing to build
+  API artifacts against; identity/link pass only.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Games
+- Game Development
+- Gaming
+- Multiplayer
+- Open Source
+- TypeScript
+common:
+- type: GitHubOrganization
+  url: https://github.com/ggfolks
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
