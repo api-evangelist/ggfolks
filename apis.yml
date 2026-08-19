@@ -36,7 +36,7 @@ x-enrichment-note: >-
   developer portal, or released SDK was found; ggfolks.com and ggfolks.io do not
   resolve, and the org is not listed on a16z's public portfolio page. Nothing to build
   API artifacts against; identity/link pass only.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
