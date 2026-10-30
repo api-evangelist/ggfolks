@@ -64,16 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-GGFolks (Good Game Folks) is a small, experimental independent game-development group
-that publishes its work as open source on GitHub under the
-[ggfolks](https://github.com/ggfolks) organization, with the tagline "We make good
-feels." Its repositories are early-stage games and supporting tooling — a TypeScript
-social-multiplayer web game framework (`platform`/`tfw`), a monster-ranching game
-(`moncher`), a web space editor (`spaced`), a Dart chat experiment (`chatapp`), and
-shared C#/Unity code (`ggdobj`, `esl`).
+GGFolks (Good Game Folks) is a small, experimental independent game-development group that publishes its work as open source on GitHub under the ggfolks organization, with the tagline "We make good feels." Its repositories are early-stage games and supporting tooling rather than a commercial API product: platform is a TypeScript social-multiplayer web game framework (the `tfw` package, MIT-licensed), moncher is a monster-ranching social game, spaced is a web-based space editor, chatapp is a Dart messaging experiment, and ggdobj/esl provide shared C#/Unity client-server and simulation code. GGFolks does not publish a public developer portal, hosted API, OpenAPI definition, or released client SDK, so it is tracked in the API Evangelist network as a company profile with no API surface to enrich.
 
-It does not publish a public developer portal, hosted API, OpenAPI definition, or
-released client SDK, so this profile is a company record with no API surface to enrich.
+**Areas:** Company · Games · Game Development · Gaming · Multiplayer · Open Source · TypeScript
 
-Surfacing source: vc-portfolio lead (a16z). Note: not verified against a16z's public
-portfolio listing as of 2026-07-19.
+## GGFolks on APIs.io
+
+Everything profiled for GGFolks is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ggfolks/](https://apis.io/providers/ggfolks/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [GitHub](https://github.com/ggfolks)
+
+## API Evangelist rating
+
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
+
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for GGFolks: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ggfolks/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
